@@ -6,3 +6,10 @@ body {
     height: 100%;
     background-color: #0c031f;
 }
+
+/*laptop Version*/
+@media (min-width: 1025px) {
+    body {
+        height: 100vh;
+    }
+}

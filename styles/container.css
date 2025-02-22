@@ -5,3 +5,27 @@
     border-radius: 1rem;
     background-color: #1d054b;
 }
+
+/*Laptop Version*/
+@media (min-width: 1025px) {
+    .mobile-image {
+        display: none;
+    }
+
+    .desktop-image {
+        background: url("../assets/image-header-desktop.jpg") center center / 100% 100% no-repeat;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        filter: sepia(100%) hue-rotate(250deg) saturate(300%);
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 70vh;
+    }
+
+    .title-paragraph-content {
+        margin-top: 8.5rem;
+    }
+}
