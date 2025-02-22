@@ -8,7 +8,7 @@ body {
 }
 
 /*Laptop Version*/
-@media (min-width: 1025) {
+@media (min-width: 1025px) {
     body {
         height: 100vh;
     }
