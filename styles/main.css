@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    font-weight: 600;
+}
+
+ul {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+li {
+    list-style-type: none;
+}
+
+.itens-list {
+    margin: 2rem 0;
+}

@@ -3,16 +3,14 @@ img {
     height: auto;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    filter: sepia(100%) hue-rotate(250deg) saturate(300%);
 }
 
 h1 {
-    margin: 2rem auto;
-    width: 50%;
-    text-align: center;
-    color: white;
+    margin: 2rem auto 1rem auto;
     font-size: 2.5rem;
 }
 
 .insights {
-    color: purple;
+    color: #d109d1;
 }

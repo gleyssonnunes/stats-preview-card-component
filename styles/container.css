@@ -1,6 +1,7 @@
 .container {
+    margin: 3rem 0;
     width: 90%;
-    height: 90%;
+    height: auto;
     border-radius: 1rem;
-    background-color: #250264;
+    background-color: #1d054b;
 }
