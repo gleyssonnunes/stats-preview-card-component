@@ -14,3 +14,10 @@ h1 {
 .insights {
     color: #d109d1;
 }
+
+/*Tablet Version*/
+@media (min-width: 769px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}

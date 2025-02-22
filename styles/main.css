@@ -7,6 +7,7 @@ main {
 
 .paragraph {
     font-weight: 600;
+    font-size: 1.3rem;
 }
 
 ul {
@@ -19,6 +20,25 @@ li {
     list-style-type: none;
 }
 
-.itens-list {
+.items-list {
     margin: 2rem 0;
+}
+
+.name-list {
+    font-size: 1.3rem;
+}
+
+/*Tablet Version*/
+@media (min-width: 769px) {
+    .paragraph {
+        font-size: 1.7rem;
+    }
+
+    ul {
+        font-size: 1.9rem;
+    }
+
+    .name-list {
+        font-size: 1.7rem;
+    }
 }
