@@ -5,4 +5,5 @@ body {
     width: auto;
     height: 100vh;
     background-color: #0c031f;
+    overflow: hidden;
 }
