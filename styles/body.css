@@ -3,7 +3,13 @@ body {
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 100vh;
+    height: 100%;
     background-color: #0c031f;
-    overflow: hidden;
+}
+
+/*Laptop Version*/
+@media (min-width: 1025) {
+    body {
+        height: 100vh;
+    }
 }
