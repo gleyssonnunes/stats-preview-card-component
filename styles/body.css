@@ -3,13 +3,6 @@ body {
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 100%;
+    height: 100vh;
     background-color: #0c031f;
-}
-
-/*laptop Version*/
-@media (min-width: 1025px) {
-    body {
-        height: 100vh;
-    }
 }
